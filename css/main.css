@@ -1,0 +1,19 @@
+@import '//components/Card/_Card.scss';
+@import '//components/Header/_Header.scss';
+@import '//components/Main/_Main.scss';
+:root {
+  --color-light:#f8f9fa;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.7;
+  background: var(--color-light);
+}
