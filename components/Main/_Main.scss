@@ -1,0 +1,36 @@
+.products-continer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    grid-gap:45px;
+    width: 80%;
+    max-width: 1200px;
+    margin: var(--spacing-large) auto;
+}
+.products-element{
+    display: flex;
+
+    .products-continer__name{
+
+        margin-bottom: auto;
+
+    }
+
+    .products-continer__img{
+
+        width: 100%;
+        height: 270px;
+        object-fit: contain;
+    }
+
+    .products-continer__price{
+
+
+
+    }
+
+    .products-continer__btn{
+
+
+
+    }
+}
